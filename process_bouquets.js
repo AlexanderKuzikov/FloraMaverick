@@ -5,6 +5,7 @@ const { BOUQUET_SYSTEM_PROMPT, BOUQUET_JSON_SCHEMA } = require("./bouquets_promp
 
 // --- НАСТРОЙКИ ---
 const API_KEY = process.env.GROQ_API_KEY || "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"; 
+const API_KEY = process.env.GROQ_API_KEY || ""; 
 const API_URL = "https://api.groq.com/openai/v1/chat/completions";
 const FOLDER_PATH = "./_букеты";
 const MODEL_ID = "meta-llama/llama-4-maverick-17b-128e-instruct";
